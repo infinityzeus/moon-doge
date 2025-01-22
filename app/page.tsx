@@ -19,7 +19,7 @@ export default function MoonDogePage() {
       <section className="container mx-auto py-16 text-center">
         <div className="relative w-64 h-64 mx-auto mb-8">
           <Image
-            src="/placeholder.svg?height=256&width=256"
+            src="/coin.png"
             alt="MoonDoge Coin"
             layout="fill"
             className="rounded-full animate-spin-slow"
@@ -35,17 +35,17 @@ export default function MoonDogePage() {
           <FeatureCard
             icon={<Rocket className="w-12 h-12 mb-4" />}
             title="To the Moon!"
-            description="Our advanced rocket technology guarantees* we'll reach the moon. Eventually."
+            description="Our advanced rocket technology guarantees we'll reach the moon. Eventually."
           />
           <FeatureCard
             icon={<Moon className="w-12 h-12 mb-4" />}
             title="Lunar Landscape"
-            description="Be the first to own property on the moon** with MoonDoge!"
+            description="Be the first to own property on the moon with MoonDoge!"
           />
           <FeatureCard
             icon={<DollarSign className="w-12 h-12 mb-4" />}
             title="Infinite Potential"
-            description="The sky's not the limit - the moon is! Potentially unlimited gains***!"
+            description="The sky's not the limit - the moon is! Potentially unlimited gains!"
           />
           <FeatureCard
             icon={<Laugh className="w-12 h-12 mb-4" />}
@@ -61,9 +61,6 @@ export default function MoonDogePage() {
         <Button size="lg" className="bg-yellow-400 text-black hover:bg-yellow-500 text-xl px-8 py-4">
           Buy MoonDoge
         </Button>
-        <p className="mt-4 text-sm opacity-75">
-          *No actual guarantee provided. **Moon property not legally binding. ***Gains not guaranteed.
-        </p>
       </section>
 
       {/* Footer */}
