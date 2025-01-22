@@ -14,11 +14,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
+  return (ff
     <html lang="en">
-      <head>
-        <link rel="icon" href="/coin.png" />
-      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
