@@ -8,10 +8,10 @@ export default function MoonDogePage() {
     <div className="min-h-screen bg-gradient-to-b from-purple-600 to-blue-800 text-white">
       {/* Hero Section */}
       <header className="container mx-auto pt-20 pb-32 text-center">
-        <h1 className="text-6xl font-bold mb-4 animate-bounce">MoonDoge 🚀🐕</h1>
+        <h1 className="text-6xl font-bold mb-4 animate-bounce">DogeMoon 🚀🐕</h1>
         <p className="text-2xl mb-8">The memecoin that's out of this world!</p>
         <Button size="lg" className="bg-yellow-400 text-black hover:bg-yellow-500">
-          Buy MoonDoge Now!
+          Buy DogeMoon Now!
         </Button>
       </header>
 
@@ -30,7 +30,7 @@ export default function MoonDogePage() {
 
       {/* Features Section */}
       <section className="container mx-auto py-16">
-        <h2 className="text-4xl font-bold text-center mb-12">Why MoonDoge?</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">Why DogeMoon?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <FeatureCard
             icon={<Rocket className="w-12 h-12 mb-4" />}
@@ -59,14 +59,14 @@ export default function MoonDogePage() {
       <section className="container mx-auto py-16 text-center">
         <h2 className="text-4xl font-bold mb-8">Ready to Howl at the Moon?</h2>
         <Button size="lg" className="bg-yellow-400 text-black hover:bg-yellow-500 text-xl px-8 py-4">
-          Buy MoonDoge
+          Buy DogeMoon
         </Button>
       </section>
 
       {/* Footer */}
       <footer className="bg-purple-900 py-8 text-center">
         <p className="text-sm opacity-75">
-          Disclaimer: MoonDoge is a meme coin with no intrinsic value or expectation of financial return. Buy at your
+          Disclaimer: Dogemoon is a meme coin with no intrinsic value or expectation of financial return. Buy at your
           own risk and only invest what you can afford to lose.
         </p>
       </footer>
